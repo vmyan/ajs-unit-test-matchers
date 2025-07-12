@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "lint": "eslint src/ __tests__/",
+    "lint:fix": "eslint --fix src/ __tests__/"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +15,7 @@
     "@babel/cli": "^7.28.0",
     "@babel/core": "^7.28.0",
     "@babel/preset-env": "^7.28.0",
-    "jest": "^30.0.4"
+    "jest": "^30.0.4",
+    "eslint": "^8.0.0"
   }
 }
